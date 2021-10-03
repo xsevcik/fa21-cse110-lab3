@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Meeting Minutes</title>
+        <link rel=icon href="resources/favicon.png">
+    </head>
+
+    <body>
+        <header>
+            <h1>The Making of a Software Engineer</h1>
+            <h2>Lecture</h2>
+            <h2>September 28, 2021</h2>
+            <details>
+                <summary>Attendees</summary>
+                <ul>
+                    <li>Xavier Sevcik</li>
+                    <li>Thomas Powell</li>
+                    <li>About 200 other people</li>
+                </ul>
+            </details>
+        </header>
+        <main>
+            <nav>
+                <details>
+                    <summary>Navigation</summary>
+                    <ul>
+                        <li><a href=#agenda>Agenda</a></li>
+                        <li><a href=#unfinished>Unfinished Business</a></li>
+                        <li><a href=#business>New Business</a></li>
+                        <li><a href=#questions>Questions</a></li>
+                        <li><a href=#visual>Diagrams</a></li>
+                        <li><a href=#media>Media</a></li>
+                        <li><a href=#form>Feedback Form</a></li>
+                    </ul>
+                </details>
+            </nav>
+            <hr>
+            <section id="agenda">
+                <h3>Agenda</h3>
+                <p>Discuss what truly makes a software engineer worthy of the title of "engineer." Is it being good at coding, or something else?</p>
+            </section>
+            <section id="unfinished">
+                <h3>Unfinished Business</h3>
+                <p>Discussing the memes from last lecture, extra thoughts on why they were added.</p>
+            </section>
+            <section id="business">
+                <h3>New Business</h3>
+                <p>Discussing what truly makes a software engineer.</p>
+                <p>
+                    The most important factor in improving code is improving the programmers themselves. People want to hire the perhaps-mythical <em>10x programmer</em>,
+                    but this is not something that is easily measured in day-to-day life. But this ideology does stand true. You'd rather have a coding SEAL than a group
+                    of people whose sole purpose in life was to memorize all the solutions to every single LeetCode question.<br>
+                    With that being said, we have to be wary of having swagger without any actual ability. It pays to know you skills and have some pride in them, but
+                    one has to be careful not to descend into the land of hubris.
+                    Your attitude is just as important as your code in the scheme of being a good Software Engineer. You must <b>want</b> to be a better programmer,
+                    it doesn't just happen on its own. To do well at someting, you have to care about that thing. You cannot be a <strong>selfish programmer</strong>.
+                    Practice makes perfect. When you want to improve, you need to follow the 3 Fs:
+                    <ol>
+                        <li>Focus</li>
+                        <li>Feedback</li>
+                        <li>Failure</li>
+                    </ol>
+                </p>
+            </section>
+            <section id="questions">
+                <h3>Questions, comments, concerns</h3>
+                <p>
+                    Students may be concerned about the high volume of image macros <span class=definition>("memes")</span> contained within the previous slideshow.
+                    Rest assured, this was a one-off occurrence, and students should not be alarmed at the appearance of any other image macros, as these will appear alone.
+                </p>
+            </section>
+            <section id="visual">
+                <h3>Diagrams from the meeting</h3>
+                <div class="image-container">
+                    <img src="resources/dk.jpg" alt="A visual representation of the Dunning-Kreuger effect" width=500>
+                </div>
+            </section>
+            <section id="media">
+                <h3>Media</h3>
+                <video controls width=500>
+                    <source src="/resources/meeting-part1.mkv" type="video/mp4">
+                    Video format not supported.
+                </video>
+                <br>
+                <audio controls src="resources/meeting-part2.m4a">Audio not supported.</audio>
+            </section>
+            <section id="form">
+                <form>
+                    <fieldset>
+                        <legend>Enter any additional notes here.</legend>
+
+                        <label for="title">Title of your note:</label>
+                        <input type="text" id="title" name="title" required> <br>
+
+                        <label for="date">Date for your note:</label>
+                        <input type="date" id="date" name="date" required> <br>
+
+                        <label for="note">Type your note below:</label> <br>
+                        <textarea id="note" name="note">Note text goes here...</textarea> <br>
+
+                        <label for="days">Choose your preferred day of the week:</label>
+                        <input list="weekdays" id="days" name="days">
+                        <datalist id="weekdays">
+                            <option value="Monday" />
+                            <option value="Tuesday" />
+                            <option value="Wednesday" />
+                            <option value="Thursday" />
+                            <option value="Friday" />
+                        </datalist> <br>
+
+                        <label for="contact">How would you like to be contacted?</label>
+                        <select name="contact" id="contact">
+                            <option value="">--Select a contact method--</option>
+                            <option value="phone">Phone Call</option>
+                            <option value="email">email</option>
+                            <option value="mail">Regular Mail</option>
+                            <option value="text">Text Message</option>
+                            <option value="pager">Pager</option>
+                            <option value="fax">Fax</option>
+                            <option value="bird">Carrier Pigeon</option>
+                        </select>
+                        
+                        <fieldset>
+                            <legend>Choose your response speed.</legend>
+                            <input type="radio" id="speed1" name="speed" value="speed1">
+                            <label for="speed1">Slow and steady</label> <br>
+                            <input type="radio" id="speed2" name="speed" value="speed2">
+                            <label for="speed2">Quick as you can</label> <br>
+                            <input type="radio" id="speed3" name="speed" value="speed3">
+                            <label for="speed3">I NEED IT YESTERDAY</label> <br>
+                        </fieldset>
+                        <input type="checkbox" id="agree" required>
+                        <label for="agree">I agree to send all my information into the circular file.</label> <br>
+                        <button type="button">Submit</button>
+                    </fieldset>
+                </form>
+            </section>
+        </main>
+        <footer>
+            <i>All information on this website is the intellectual property and copyright of the Regents of the University of California. All rights reserved.</i>
+        </footer>
+    </body>
+</html>
