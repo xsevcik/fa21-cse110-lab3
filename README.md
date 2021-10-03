@@ -1,0 +1,1 @@
+Pages site can be found [here](https://xsevcik.github.io/Lab2/).
