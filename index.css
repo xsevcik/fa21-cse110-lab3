@@ -33,7 +33,9 @@ p
 
 [controls]
 {
-
+    position: relative;
+    top: 20px;
+    left: 20px;
 }
 
 p:hover
@@ -72,4 +74,12 @@ form > fieldset
     flex-direction: column;
     flex-wrap: wrap;
     justify-content: center;
+}
+
+footer
+{
+    position: -webkit-sticky;
+    position: sticky;
+    bottom: 20px;
+    background-color: white;
 }
