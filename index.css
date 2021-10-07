@@ -46,9 +46,14 @@ p
     left: 20px;
 }
 
-p:hover
+details:hover
 {
+    background-color: lightblue;
+}
 
+details:active
+{
+    background-color: blue;
 }
 
 section h3
