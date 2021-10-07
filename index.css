@@ -17,7 +17,6 @@
 
 p
 {
-
     font-family: 'Prata', serif;
 }
 
@@ -36,7 +35,7 @@ section h3
 
 }
 
-p > li
+p > ol
 {
 
 }
@@ -53,5 +52,5 @@ p + h3
 
 section#questions
 {
-    
+    background-color: beige;
 }
