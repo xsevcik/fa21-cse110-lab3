@@ -32,17 +32,17 @@ p:hover
 
 section h3
 {
-
+    text-decoration: underline;
 }
 
-p > ol
+section > ol
 {
-
+    text-align: center;
 }
 
 h1 ~ h2
 {
-
+    color: firebrick;
 }
 
 p + h3
