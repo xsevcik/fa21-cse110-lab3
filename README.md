@@ -1,1 +1,1 @@
-Pages site can be found [here](https://xsevcik.github.io/Lab2/).
+Pages site can be found [here](https://xsevcik.github.io/fa21-cse110-lab3/).
