@@ -1,3 +1,5 @@
+/* This is my super awesome lab 3 css file! */
+
 @import url('https://fonts.googleapis.com/css2?family=Prata&display=swap');
 
 @media print
@@ -68,7 +70,7 @@ section > ol
 
 h1 ~ h2
 {
-    color: firebrick;
+    color: #B00;
     padding-top: 10px;
     padding-bottom: 15px;
     padding-left: 8px;
@@ -83,7 +85,7 @@ p + h3
 
 section#questions
 {
-    background-color: beige;
+    background-color: hsl(50, 75%, 80%);
     margin: 12px;
     border-style: inset;
     border-color: aquamarine;
@@ -105,5 +107,5 @@ footer
     position: -webkit-sticky;
     position: sticky;
     bottom: 20px;
-    background-color: white;
+    background-color: rgb(255, 255, 255);
 }
