@@ -7,7 +7,10 @@
 
 #media
 {
-
+    display: grid;
+    grid-template-columns: 20% 60% 20%;
+    grid-template-rows: 100%;
+    column-gap: 3px;
 }
 
 *
@@ -53,4 +56,12 @@ p + h3
 section#questions
 {
     background-color: beige;
+}
+
+form > fieldset
+{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
 }
