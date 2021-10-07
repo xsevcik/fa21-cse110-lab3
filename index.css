@@ -54,3 +54,11 @@ section#questions
 {
     background-color: beige;
 }
+
+form > fieldset
+{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+}
